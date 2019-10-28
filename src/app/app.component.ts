@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Scenario1';
+  public onClick(value) {
+    console.log(value);
+  }
+  
 }
